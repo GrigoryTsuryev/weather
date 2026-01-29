@@ -1,0 +1,4 @@
+spring.mongodb.uri: ${SPRING_DATA_MONGODB_URI:mongodb://root:root@mongodb:27017/weather?authSource=admin}
+
+server:
+  port: ${SERVER_PORT:8080}
