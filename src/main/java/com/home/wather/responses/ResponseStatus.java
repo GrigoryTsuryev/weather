@@ -1,4 +1,4 @@
-package com.home.wather.responses;
+package com.home.wather.dtos;
 
 public enum ResponseStatus {
     STORED,
