@@ -19,7 +19,7 @@ class WatherApplicationTests {
         warmestDataStructureService = new WarmestDataStructureService();
     }
 	@Test
-    public void testCompleteScenario() {
+    public void fullTest() {
         
         assertNull(warmestDataStructureService.getWarmest());
         assertNull(warmestDataStructureService.put("a", 100));
